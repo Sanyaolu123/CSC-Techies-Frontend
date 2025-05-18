@@ -1,0 +1,5 @@
+export * from "./overview.ts"
+export * from "./courses.ts"
+export * from "./material.ts"
+export * from "./timetable.ts"
+export * from "./exams.ts"

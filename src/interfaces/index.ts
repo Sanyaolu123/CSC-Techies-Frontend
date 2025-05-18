@@ -1,0 +1,6 @@
+export * from "./response.interface"
+export * from "./overview.interface"
+export * from "./course.interface"
+export * from "./material.interface"
+export * from "./timetable.interface"
+export * from "./exam.interface"
