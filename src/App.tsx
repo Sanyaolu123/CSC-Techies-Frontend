@@ -43,7 +43,7 @@ function App() {
           <Route path="/exams" element={<ExamPage />} />
           <Route path="/courses" element={<CoursesList />} />
           <Route path="/materials" element={<MaterialsPage />} />
-          <Route path="/quizes" element={<Quizzes />} />
+          <Route path="/quizzes" element={<Quizzes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
