@@ -31,8 +31,6 @@ Browse available courses to register, see totals for compulsory and elective cou
 - **Axios**
 - **Framer Motion**
 - **Sonner** (for notifications)
-- **Zod** (optional, for frontend schema validation)
-- **Prisma** (for backend integration)
 
 ---
 
