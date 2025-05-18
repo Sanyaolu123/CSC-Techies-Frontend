@@ -31,7 +31,7 @@ function App() {
               <RocketIcon size={56} color="#4F46E5" style={{ filter: "drop-shadow(0 2px 8px #6366f1aa)" }} />
             </motion.div>
             <span style={{ marginTop: "1.5rem", color: "#4F46E5", fontWeight: 600, fontSize: "1.15rem", letterSpacing: 0.2 }}>
-              Launching your experience...
+              Loading the page...
             </span>
           </div>
         }
