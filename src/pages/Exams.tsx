@@ -146,7 +146,7 @@ export default function ExamPage() {
 
   return (
     <>
-      <div className="p-2 max-w-7xl mx-auto font-mono">
+      <div className="p-2 max-w-7xl mx-auto font-mono flex items-center justify-center min-h-[calc(100vh-250px)] px-4 py-6">
         <Calendar<MyEvent>
           localizer={localizer}
           events={expandedEvents}

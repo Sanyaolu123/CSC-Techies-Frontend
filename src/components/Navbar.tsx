@@ -12,7 +12,7 @@ import {
 const links = [
   { to: "/overview", label: "Overview" },
   {
-    label: "Schedule",
+    label: "Calendar",
     dropdown: [
       { to: "/timetable", label: "Timetable" },
       { to: "/exams", label: "Tests & Exams" },
