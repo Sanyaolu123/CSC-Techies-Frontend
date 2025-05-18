@@ -45,4 +45,4 @@ The backend for this project is available at:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/sanyaolu-abideen/)
 
-> Ready to build your next project? Clone, install, and start coding!
+> Ready to build your next project? Connect with me Today!
