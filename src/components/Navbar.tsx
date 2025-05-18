@@ -8,6 +8,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
+import { BellIcon } from "lucide-react";
 
 const links = [
   { to: "/overview", label: "Overview" },
@@ -66,7 +67,10 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex space-x-4 font-mono">
+
+      
+        <div className="hidden md:flex space-x-4 items-center font-mono">
+            <BellIcon />
           {links.map((link) => {
             if ("dropdown" in link) {
               return (
@@ -116,6 +120,9 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Hamburger */}
+        <div className="lg:hidden flex items-center space-x-2">
+            <BellIcon />
+
         <button
           className="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
           aria-label="Toggle menu"
@@ -137,6 +144,7 @@ const Navbar = () => {
             )}
           </svg>
         </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
