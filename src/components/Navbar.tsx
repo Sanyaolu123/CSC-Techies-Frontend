@@ -21,6 +21,7 @@ const links = [
   },
   { to: "/courses", label: "Courses" },
   { to: "/materials", label: "Materials" },
+  { to: "/quizes", label: "Quiz" },
 ];
 
 

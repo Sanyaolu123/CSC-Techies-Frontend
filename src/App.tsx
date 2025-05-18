@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
 import { RocketIcon } from "lucide-react";
 import { motion } from "framer-motion";
+import Quizes from "./pages/Quizes";
 
 const Landing = lazy(() => import("./pages/Landing"));
 const OverviewPage = lazy(() => import("@/pages/Overview"));
@@ -42,6 +43,7 @@ function App() {
           <Route path="/exams" element={<ExamPage />} />
           <Route path="/courses" element={<CoursesList />} />
           <Route path="/materials" element={<MaterialsPage />} />
+          <Route path="/quizes" element={<Quizes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
