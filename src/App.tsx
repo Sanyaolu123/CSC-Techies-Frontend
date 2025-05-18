@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
 import { RocketIcon } from "lucide-react";
 import { motion } from "framer-motion";
-import Quizes from "./pages/Quizes";
+import Quizzes from "./pages/Quizzes";
 
 const Landing = lazy(() => import("./pages/Landing"));
 const OverviewPage = lazy(() => import("@/pages/Overview"));
@@ -22,17 +22,17 @@ function App() {
       <Suspense
         fallback={
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "60vh" }}>
-        <motion.div
-          initial={{ y: 40, opacity: 0 }}
-          animate={{ y: [40, 0, -10, 0], opacity: 1 }}
-          transition={{ duration: 1.2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
-          style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
-        >
-          <RocketIcon size={56} color="#4F46E5" style={{ filter: "drop-shadow(0 2px 8px #6366f1aa)" }} />
-        </motion.div>
-        <span style={{ marginTop: "1.5rem", color: "#4F46E5", fontWeight: 600, fontSize: "1.15rem", letterSpacing: 0.2 }}>
-          Launching your experience...
-        </span>
+            <motion.div
+              initial={{ y: 40, opacity: 0 }}
+              animate={{ y: [40, 0, -10, 0], opacity: 1 }}
+              transition={{ duration: 1.2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
+              style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+            >
+              <RocketIcon size={56} color="#4F46E5" style={{ filter: "drop-shadow(0 2px 8px #6366f1aa)" }} />
+            </motion.div>
+            <span style={{ marginTop: "1.5rem", color: "#4F46E5", fontWeight: 600, fontSize: "1.15rem", letterSpacing: 0.2 }}>
+              Launching your experience...
+            </span>
           </div>
         }
       >
@@ -43,7 +43,7 @@ function App() {
           <Route path="/exams" element={<ExamPage />} />
           <Route path="/courses" element={<CoursesList />} />
           <Route path="/materials" element={<MaterialsPage />} />
-          <Route path="/quizes" element={<Quizes />} />
+          <Route path="/quizes" element={<Quizzes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

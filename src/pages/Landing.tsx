@@ -41,7 +41,7 @@ export default function Landing() {
           </a>
 
           <a href="/courses">
-            <Button variant="secondary" className=" font-mono shadow bg-gray-200 px-6 py-3 text-base rounded-xl cursor-pointer">
+            <Button variant="secondary" className="font-mono shadow bg-gray-200 px-6 py-3 text-base rounded-xl cursor-pointer">
               View Courses
             </Button>
           </a>
